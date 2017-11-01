@@ -47,3 +47,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 .text-center {
   text-align: center;
 }
+
+.parallax-container {max-height: 100000px
+max-width: auto;
+background: transparent;} 
