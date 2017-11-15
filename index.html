@@ -20,9 +20,22 @@
      <!-- Navbar goes here -->
      <!-- Navbar goes here -->
     <!-- Page Layout here -->
-   <div class="navbar-fixed">
+   
+    
+    <ul class ="side-nav yellow darken-3" id="mobile-demo"> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="acting.html">Acting</a></li>
+                    <li><a href="wrestling.html">Wrestling</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="socialMedia.html">Social Media</a></li> 
+    </ul>
+    
+    
+    
+    <div class="navbar-fixed">
        <nav>
             <div class="nav-wrapper yellow darken-3"> <!-- this is letting me know where the nav bar will be and what it says--> 
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="acting.html">Acting</a></li>
@@ -58,7 +71,7 @@
                     </div>
             </li>
             <li>
-                <img class="responsive image" img src="assets/homeImg6.jpg">
+                <img id="weird-pic" class="responsive image" img src="assets/homeImg6.jpg">
                     <div class="caption left-align">
                         <h3>This is our big Tagline!</h3>
                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>

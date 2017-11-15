@@ -8,6 +8,9 @@ $(document).ready(function(){
 $(document).ready(function(){
       $('.slider').slider();
     });
+$(document).ready(function(){
+ $(".button-collapse").sideNav();
+    });
 
 
  // Initialize collapse button
