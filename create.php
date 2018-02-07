@@ -60,7 +60,7 @@ $info ="Passwords do not match!";
                         <li><a href="index.html">Home</a></li>
                         <li><a href="acting.html">Acting</a></li>
                         <li><a href="wrestling.html">Wrestling</a></li>
-                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop.php">Shop</a></li>
                         <li><a href="socialMedia.html">Social Media</a></li>
                     </ul>
                 </div>
@@ -70,7 +70,7 @@ $info ="Passwords do not match!";
 
     <body>
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" method="post">
                 <div class="row">
                     <div class="input-field col s6">
                         <input id="first_name" type="text" class="validate">

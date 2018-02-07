@@ -23,8 +23,10 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="acting.html">Acting</a></li>
         <li><a href="wrestling.html">Wrestling</a></li>
-        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a class="dropdown-button" href="Cart.php" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="socialMedia.html">Social Media</a></li>
+        <li><a href="login.php">Login</a></li>
     </ul>
 
 

@@ -32,3 +32,15 @@
     }
     ?>
 </div>
+<html>
+
+    <ul class="side-nav yellow darken-3" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="acting.html">Acting</a></li>
+        <li><a href="wrestling.html">Wrestling</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a href="socialMedia.html">Social Media</a></li>
+        <li><a href="login.php">Login</a></li>
+    </ul>
+    
+</html>
