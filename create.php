@@ -12,8 +12,8 @@ $mydob = mysqli_real_escape_string($conn,$_POST["txtDob"]);
 $myusername = mysqli_real_escape_string($conn,$_POST["txtUsername"]);
 if ($mypassword == $mypasswordConfirm)
 {
-$sql = "INSERT INTO user (firstName, lastName, address, email, phone, password)
-VALUES ('$myfirstname', '$mylastname', '$myusername', '$myemail', '$mydob', '$mypassword')";
+$sql = "INSERT INTO users (username, password, firstName, lastName, email, Dob)
+VALUES ('$myusername', '$mypassword', '$myfirstname', '$mylastname', '$myemail', '$mydob')";
 if (mysqli_query($conn, $sql)) {
 $info = "User Created Successfully!";
 } else {
@@ -110,7 +110,9 @@ $info ="Passwords do not match!";
                 </div>
             </form>
         </div>
-        <a href="login.html" class="white-text color orange btn waves-effect waves-white">Submit</a>
+        <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+        </button>
 
 
 
@@ -119,3 +121,4 @@ $info ="Passwords do not match!";
 
 
     </body>
+</html>
